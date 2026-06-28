@@ -1,0 +1,7 @@
+spring:
+  liquibase:
+    enabled: true
+
+app:
+  seed:
+    enabled: false

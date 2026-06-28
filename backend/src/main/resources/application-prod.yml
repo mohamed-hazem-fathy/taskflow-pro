@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: false
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+
+logging:
+  level:
+    com.taskflow: INFO
+    org.hibernate: WARN
+  file:
+    name: /app/logs/taskflow.log
